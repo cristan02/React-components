@@ -6,5 +6,9 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Barlow', sans-serif;
-  @apply bg-gray-900 text-gray-200
+  @apply bg-gray-900 
+}
+input.custom-size{
+  width:285px;
+  margin-left: 10px;
 }

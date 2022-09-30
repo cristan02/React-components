@@ -1,21 +1,24 @@
-import { useEffect, useState } from 'react';
-import List from './List';
-import data from '../data/data';
 
-function App() {
-  const [people, setPeople] = useState(data)
+import '../App.css';
+import React, { useState } from 'react';
+import data from './data';
+import List from './List';
+
+const App=() => {
+  const [people,setPeople] = useState(data);
+
   return (
-    <div className='h-screen w-full flex items-center justify-center bg-pink-400'>
-      <div className='bg-white text-gray-900 p-4 rounded-lg min-w-[400px] flex flex-col'>
-        <div className='text-2xl'>{people.length} birthdays today</div>
+    <div className='w-full h-screen flex justify-center items-center bg-rose-500'>
+      <div className='bg-white min-w-[400px] rounded-lg p-4' >
+        <div className="text-2xl"> {people.length} Birthdays today</div>
         <p className='p-2'></p>
-        {people.map(person => (
-          <List person={person} />
+        {people.map((person) => (
+            <List person={person}/>
         ))}
-        <button className='w-full text-white bg-pink-400 hover:bg-rose-600 px-2 py-1 rounded' onClick={() => setPeople([])}>Clear All</button>
+        
+        <button className="w-full bg-rose-500 hovrt:bg-rose-600 px-2 py-1 rounded" onClick={()=> setPeople([])}>Clear</button>
       </div>
     </div>
   );
 }
-
 export default App;

@@ -38,11 +38,11 @@ function App() {
   const updateCount = () => {
     setCount(count + 1)
   }
-
+ 
   return (
-    <div className='flex flex-col items-center mt-4'>
-    <div className='flex flex-col items-center'>
-      <span className='text-3xl font-bold shadow cursor-pointer'  onClick={updateCount}>Employees</span>
+    <div className='flex flex-col items-center mt-4 text-gray-200'>
+    <div className='flex flex-col items-center p-6'>
+      <span className='text-3xl font-bold shadow cursor-pointer '  onClick={updateCount}>Employees</span>
       <span>Clicked {count} times!</span>
       <span>You have been on my site for {seconds} seconds</span>
     </div>
