@@ -19,6 +19,7 @@ const Adder=() => {
     })
     
   }
+
   return ( 
     <div>
       <input type="text" id="clear" className="w-5/6 px-3 py-1 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300
@@ -35,27 +36,19 @@ const Adder=() => {
             <div className="flex align-center w-11/12  gap-x-0 place-content-between px-4 py-1 border border-zinc-600 rounded">
             <span  className="place-self-end"  onChange={(e)=>setJob(e.target.value)}>{todo}</span>
             <button onClick={() => handleClear(index)} className="w-6 place-self-end"><img src="icons8-trash-can.svg"></img></button>
-            
           </div>
           <p className="p-1"></p>
           </div>
           
         ))}
-        <Deleteall val={arr.length} empty={setArr}/>
+        {arr.length > 0 && 
+        <div className="w-full flex justify-center">
+          <button type="button" class="text-white  bg-red-800 font-medium rounded-lg text-sm px-3 py-1 mr-2 mb-2 dark:bg-red-600 dark:bg-red-700 dark:focus:ring-red-900" onClick={()=> setArr([])}>Delete All</button>
+        </div>
+        }
         
     </div>
   
   )
 }
 export default Adder;
-
-function Deleteall(props){
-  
-  if(props.val > 0)
-  return (
-    <div className="w-full flex justify-center">
-    <button type="button" class="text-white bg-elete All-700 hover:bg-red-800 font-medium rounded-lg text-sm px-3 py-1 mr-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900" onclick="test()">Delete All</button>
-
-    </div>
-    )
-}
