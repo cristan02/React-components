@@ -6,6 +6,7 @@ import ReviewPage from './Review/ReviewPage';
 import Employees from './Employee/Employees'
 import Calculator from './Calculator/Calculator';
 import Notes from './to_do/Notes'
+import Restaurant from './Restaurant/Restaurant'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -13,8 +14,8 @@ root.render(
     {/* <Employees /> */}
     {/* <App /> */}
     {/* <ReviewPage /> */} 
-    { <Notes/> }
-    {/* <Calculator /> */}
+    {/* <Notes/> */}
+    { <Restaurant /> }
     
   </React.StrictMode>
 );
