@@ -4,9 +4,9 @@ import './index.css';
 import App from './Birthday/App';
 import ReviewPage from './Review/ReviewPage';
 import Employees from './Employee/Employees'
-import Calculator from './Calculator/Calculator';
 import Notes from './to_do/Notes'
 import Restaurant from './Restaurant/Restaurant'
+import Request from './Request/Request'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,7 +15,8 @@ root.render(
     {/* <App /> */}
     {/* <ReviewPage /> */} 
     {/* <Notes/> */}
-    { <Restaurant /> }
+    {/* { <Restaurant /> } */}
+    {<Request/>}
     
   </React.StrictMode>
 );
