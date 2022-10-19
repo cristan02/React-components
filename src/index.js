@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import {BrowserRouter} from 'react-router-dom';
+
 import './index.css';
 import App from './Birthday/App';
 import ReviewPage from './Review/ReviewPage';
 import Employees from './Employee/Employees'
 import Notes from './to_do/Notes'
 import Restaurant from './Restaurant/Restaurant'
-import Request from './Request/Request'
+import Request from './Request/Request';
+import Coda from './Coda/Coda';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,7 +19,12 @@ root.render(
     {/* <ReviewPage /> */} 
     {/* <Notes/> */}
     {/* { <Restaurant /> } */}
-    {<Request/>}
+    {/* {<Request/>} */}
+    
+    {<BrowserRouter>
+      {<Coda/>}
+    </BrowserRouter>}
+    
     
   </React.StrictMode>
 );
