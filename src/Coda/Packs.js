@@ -14,7 +14,7 @@ function Packs(){
                 <p className='p-2'></p>
 
                 <div className='rounded-lg'>
-                    <img src='' className='w-full h-[200px]'></img>
+                    <img src='https://cdn.coda.io/assets/de6d81724f05/img/workspaces/packs-banner.png' className='w-full h-[210px] rounded-lg'></img>
                 </div>
 
                 <p className='p-4'></p>
@@ -22,22 +22,22 @@ function Packs(){
 
                 <p className='py-4'></p>
 
-                <div className='flex justify-between'>
+                <div className='flex justify-between border-b-2 h-10'>
                     <ul className='flex flex-row'>
-                        <li className=''>My Packs</li>
-                        <p className='p-1'></p>
+                        <li className='py-2 cursor-pointer hover:text-gray-700 hover:border-b-2  hover:border-gray-700'>My Packs</li>
+                        <p className='p-2'></p>
 
-                        <li className=''>Shared with me</li>
-                        <p className='p-1'></p>
+                        <li className='py-2 cursor-pointer hover:text-gray-700 hover:border-b-2  hover:border-gray-700'>Shared with me</li>
+                        <p className='p-2'></p>
 
-                        <li className=''>Shared with workspace</li>
-                        <p className='p-1'></p>
+                        <li className='py-2 cursor-pointer hover:text-gray-700 hover:border-b-2  hover:border-gray-700'>Shared with workspace</li>
+                        <p className='p-2'></p>
 
-                        <li className=''>Subscriptions</li>
-                        <p className='p-1'></p>
+                        <li className='py-2 cursor-pointer hover:text-gray-700 hover:border-b-2  hover:border-gray-700'>Subscriptions</li>
+                        <p className='p-2'></p>
 
                     </ul>
-                    <div className=''>Sort by Last edited</div>
+                    <div className=''>Sort by Subscription date</div>
                 </div>
 
 

@@ -15,8 +15,8 @@ function Template(){
 
                 <p className='p-2'></p>
 
-                <div className='rounded-lg'>
-                    <img src='' className='w-full h-[200px]'></img>
+                <div className='border rounded-lg'>
+                    <img src='https://cdn.coda.io/assets/de6d81724f05/img/workspaces/templates-background.png' className='w-full h-[210px] rounded-lg'></img>
                 </div>
 
                 <p className='p-4'></p>
@@ -24,8 +24,8 @@ function Template(){
 
                 <p className='py-4'></p>
 
-                <div className='flex flex-col items-center justify-center px-[50px] py-[25px] border rounded'>
-                    <div className=''>No custom templates...yet</div>
+                <div className='flex flex-col items-center justify-center px-[50px] py-[25px] border  rounded-lg'>
+                    <div className='text-gray-500 text-lg'>No custom templates...yet</div>
 
                     <p className='p-1'></p>
 
@@ -35,10 +35,10 @@ function Template(){
                     
                     <p className='p-4'></p>
                     
-                    <div className='w-full flex grid grid-cols-3 gap-4 px-10'>
-                        <BoxTemplate image='' title='Browse all templates' text='See what you can build with Coda, and jumpstart your first doc.'/>
-                        <BoxTemplate image='' title='Get inspired by real teams' text='Coda templates power thousands of teams to do their best work.'/>
-                        <BoxTemplate image='' title='Make your own template' text='Building docs over and over again? 
+                    <div className='w-full flex grid grid-cols-3 gap-5 px-6 max-w-[980px]'>
+                        <BoxTemplate image='https://cdn.coda.io/assets/de6d81724f05/img/templates/browse_templates_banner.png' title='Browse all templates' text='See what you can build with Coda, and jumpstart your first doc.'/>
+                        <BoxTemplate image='https://cdn.coda.io/assets/de6d81724f05/img/templates/gallery_banner.png' title='Get inspired by real teams' text='Coda templates power thousands of teams to do their best work.'/>
+                        <BoxTemplate image='https://cdn.coda.io/assets/de6d81724f05/img/templates/make_templates_banner.png' title='Make your own template' text='Building docs over and over again? 
                         create a custom template to share.'/>
                     </div>
 

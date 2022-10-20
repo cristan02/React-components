@@ -20,12 +20,30 @@ function Shortcut(){
 
                 <p className='p-6'></p>
 
-                <div className='flex justify-between'>
+                <div className='flex justify-between border-b-2  h-10'>
                     <ul className='flex flex-row'>
-                        <li className=''>Docs</li>
-                        <p className='p-1'></p>            
+                        <li className='py-2 cursor-pointer hover:text-gray-700 hover:border-b-2  hover:border-gray-700'>Docs</li>          
                     </ul>
                 </div>
+
+                <div className='flex justify-between items-center rounded hover:bg-gray-100 py-4 px-5 mx-[-12px]'>
+                    <div className='flex items-center'>
+                        <div className='border-2 border-gray-200 p-2 rounded-lg flex align-center'>
+                            <img src='font awesome icons\star-solid.svg' className='w-6 h-6'>
+                            </img>
+                        </div>
+
+                        <p className='px-3'></p>
+                        
+                        <div className='flex flex-col '>
+                            You dont have any stared document yet
+                        </div>
+                    </div>
+                    <div className='flex'>
+                        <img src='font awesome icons\ellipsis-solid.svg' className='w-5 h-h'></img>
+                    </div>
+                </div>
+                
             </div>
         </div>
     )
