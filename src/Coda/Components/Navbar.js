@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 function Navbar(){
     return(
         <div className='text-gray-600 p-2' > 
-            <div className='w-[250px] h-screen border-r-2'>
+            <div className='w-[250px] min-h-screen h-full border-r-2'>
                 <div className='flex items-center justify-between py-4 px-3'>
                     <img src='https://res.cloudinary.com/practicaldev/image/fetch/s--b1glr5jJ--/c_fill,f_auto,fl_progressive,h_320,q_auto,w_320/https://dev-to-uploads.s3.amazonaws.com/uploads/organization/profile_image/396/3b0f0f01-b434-43de-aec4-e1d711a01d54.png' className='w-6 h-6'>
                     </img>
