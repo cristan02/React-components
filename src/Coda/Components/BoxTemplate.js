@@ -16,7 +16,7 @@ function BoxTemplate(props) {
             Browse templates
         </div>
       </div>
-      
+      <p className='p-2'></p>
     </div>
   )
 }
