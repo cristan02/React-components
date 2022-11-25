@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import {BrowserRouter} from 'react-router-dom';
 
 import './index.css';
-import App from './Birthday/App';
+import Birthday from './Birthday/Birthday';
 import ReviewPage from './Review/ReviewPage';
 import Employees from './Employee/Employees'
 import Notes from './to_do/Notes'
@@ -15,7 +15,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <Employees /> */}
-    {/* <App /> */}
+    {/* <Birthday /> */}
     {/* <ReviewPage /> */} 
     {/* <Notes/> */}
     {/* { <Restaurant /> } */}

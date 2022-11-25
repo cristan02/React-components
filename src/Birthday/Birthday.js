@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import data from './data';
 import List from './List';
 
-const App=() => {
+const Birthday=() => {
   const [people,setPeople] = useState(data);
 
   return (
@@ -21,4 +21,4 @@ const App=() => {
     </div>
   );
 }
-export default App;
+export default Birthday;
