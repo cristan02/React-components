@@ -2,9 +2,10 @@
 This directory contains reusable React components that can be used across your application. These components are designed to promote code reusability and maintainability by encapsulating specific functionality and visual elements.
 
 # Installation 
-  1) clone the repositary and cd to the repositary
-  2) install dependencies used npm install
+  1) clone the repositary `git clone https://github.com/cristan02/React-components`
+  2) install dependencies used `npm install`
   3) uncomment whichever component from index.js which you want to see
+  4) access application on : http://localhost:3000/
 
 # Screenshots
   - Employees
